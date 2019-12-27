@@ -95,6 +95,7 @@ a{
     }
     .section-1{
         padding:0;
+        border-radius: 200px;
         padding-top: 5rem;
     }
     .section-2{
