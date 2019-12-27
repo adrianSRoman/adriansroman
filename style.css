@@ -23,6 +23,15 @@ a{
     color: #7A7C80;
     text-decoration: none;
 }
+
+.avatar {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
+}
+
 /* section 1 */
 .section-1{
     padding-top: 40vh;
@@ -95,7 +104,6 @@ a{
     }
     .section-1{
         padding:0;
-        border-radius: 200px;
         padding-top: 5rem;
     }
     .section-2{
