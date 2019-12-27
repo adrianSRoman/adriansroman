@@ -24,12 +24,8 @@ a{
     text-decoration: none;
 }
 
-.avatar {
-    display: block;
-    border-radius: 200px;
-    box-sizing: border-box;
-    background-color: #DDD;
-    border: 5px solid #cfd8dc;
+.img-circle {
+    border-radius: 50%;
 }
 
 /* section 1 */
