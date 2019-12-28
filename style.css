@@ -19,6 +19,10 @@ h2,.white{
     color: #fff;
 }
 
+li {
+    display: inline-block;
+}
+
 a{
     color: #7A7C80;
     text-decoration: none;
