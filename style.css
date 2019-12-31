@@ -35,7 +35,7 @@ a{
 /* section 1 */
 .section-1{
     padding-top: 40vh;
-    padding-left: 55vw; /* 25 */
+    padding-left: 25vw; /* 25 */
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ a{
   float: left;
   width:  25%;
 /*   height: 15%; */
-  padding: 10px; /*10px*/
+  padding: 50px; /*10px*/
 }
 
 /* Style the images inside the grid */
