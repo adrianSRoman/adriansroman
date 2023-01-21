@@ -2,7 +2,7 @@
 
 - 🏎 I’m currently working as an Audio Software Engineer.
 - ♾️ My background is in Applied Mathematics and Computer Science.
-- 🌱 During my free time, I enjoy learning everything related to AI related projects on Audio and Signal Processing.
+- 🌱 During my free time, I enjoy learning and working on AI projects applied to Audio and Signal Processing.
 
 ## _Languages_
 
