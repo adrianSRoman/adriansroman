@@ -1,8 +1,8 @@
-## Hello! I'm Adrian S Roman 🤙🏼
+## Hello! I'm Adrian S Roman 🚀
 
-- I’m an Audio Software Engineer.
+- During the day I’m an Audio Software Engineer.
 - My background is in Applied Mathematics and Computer Science.
-- I enjoy learning and working on AI projects applied to Audio and Signal Processing.
+- I enjoy my free-time working as an Audio/Signal-processing researcher and programmer.
 
 ## _Languages_
 
