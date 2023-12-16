@@ -2,7 +2,7 @@
 
 - During the day I’m an Audio Software Engineer.
 - My background is in Applied Mathematics and Computer Science.
-- I enjoy my free-time working as an Audio/Signal-processing researcher and programmer.
+- I enjoy my free-time working as an ML/Audio/Signal-processing researcher and programmer.
 
 ## _Languages_
 
