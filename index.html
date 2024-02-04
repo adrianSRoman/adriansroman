@@ -4,6 +4,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<!-- Include PDF.js library -->
+<script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+
 <html>
 	<head>
 		<title>adrianSroman</title>
@@ -133,9 +136,41 @@
 						    </p>
 						
 						    <!-- Button to view resume -->
-						    <button onclick="window.location.href='https://github.com/adrianSRoman/adriansroman/blob/master/assets/asroman_2024.pdf'" class="button">View Resume</button>
+	
+						    <button onclick="viewResume()" class="button">View Resume</button>
+						
+						    <!-- Placeholder for the PDF viewer -->
+						    <div id="pdfViewer"></div>
+<!-- 						    <button onclick="window.location.href='https://github.com/adrianSRoman/adriansroman/blob/master/assets/asroman_2024.pdf'" class="button">View Resume</button> -->
 						</article>
-
+						<!-- Include your own script -->
+						<script>
+						    function viewResume() {
+						        // Specify the URL of your PDF file
+						        var pdfUrl = 'https://github.com/adrianSRoman/adriansroman/blob/master/assets/asroman_2024.pdf';
+						
+						        // Fetch the PDF document
+						        pdfjsLib.getDocument(pdfUrl).promise.then(function (pdfDoc) {
+						            // Render the first page of the PDF to the placeholder element
+						            pdfDoc.getPage(1).then(function (page) {
+						                var canvas = document.createElement('canvas');
+						                var context = canvas.getContext('2d');
+						                var viewport = page.getViewport({ scale: 1.5 });
+						                canvas.height = viewport.height;
+						                canvas.width = viewport.width;
+						
+						                var renderContext = {
+						                    canvasContext: context,
+						                    viewport: viewport,
+						                };
+						
+						                page.render(renderContext);
+						                document.getElementById('pdfViewer').innerHTML = '';
+						                document.getElementById('pdfViewer').appendChild(canvas);
+						            });
+						        });
+						    }
+						</script>
 
 						<!-- Contact -->
 							<article id="contact">
