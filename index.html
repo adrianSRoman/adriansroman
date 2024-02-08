@@ -4,8 +4,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<!-- Include PDF.js library -->
-<script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
 
 <html>
 	<head>
@@ -139,14 +137,9 @@
 							"can an audio-visual emotion encoder be useful to detect forgery in videos?", and the solution elegantly comes!  
 							    
 						    </p>
+
+						<button onclick="openPdfWithIframe()">View Resume</button>
 						
-						    <!-- Button to view resume -->
-	
-						    <button onclick="viewResume()" class="button">View Resume</button>
-						
-						    <!-- Placeholder for the PDF viewer -->
-						    <div id="pdfViewer"></div>
-<!-- 						    <button onclick="window.location.href='https://github.com/adrianSRoman/adriansroman/blob/master/assets/asroman_2024.pdf'" class="button">View Resume</button> -->
 						</article>
 						<!-- Include your own script -->
 						<script>
@@ -470,3 +463,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
+<script>
+    function openPdfWithIframe() {
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://docs.google.com/gview?url=https://github.com/adrianSRoman/adriansroman/blob/master/assets/asroman_2024.pdf&embedded=true';
+        iframe.style.width = '100%';
+        iframe.style.height = '600px';
+        iframe.frameBorder = '0';
+        
+        // Replace the existing content with the iframe
+        document.getElementById('about').innerHTML = '';
+        document.getElementById('about').appendChild(iframe);
+    }
+</script>
