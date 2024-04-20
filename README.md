@@ -4,7 +4,7 @@
 - My background is in Applied Mathematics and Computer Science.
 - I enjoy my free-time working as a ML/Audio/Signal-processing researcher and programmer.
 
-![Adrian S Roman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=adrianSRoman&show_icons=true&theme=onedark&count_private=true)
+![Adrian S Roman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=adrianSRoman&show_icons=true&theme=radical&count_private=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adrianSRoman&layout=compact&theme=onedark&count_private=true)
 
